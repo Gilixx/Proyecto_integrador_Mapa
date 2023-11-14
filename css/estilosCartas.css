@@ -4,7 +4,7 @@ body {
 }
 
 .carta {
-    width: 40%;
+    width: 50%;
     height: 700px;
     padding: 15px;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
     border-radius: 15px;
     position: absolute;
     top: 75%;
-    left: 79%;
+    left: 70%;
     transform: translate(-50%, -50%);
     border: 2px solid #cccccc;
 }
