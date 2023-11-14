@@ -1,0 +1,70 @@
+.mapadiv{
+    width:70% ;
+    margin: auto;
+}
+
+.mapadiv path{
+
+    fill: #0f5eb373;
+    stroke: #ffffff;
+    stroke-width: 2px;
+}
+
+.mapadiv :hover {
+    fill: rgba(24, 0, 240, 0.824)
+
+}
+.IMDLG{
+    width: 50%;
+    margin: auto;
+}
+.tracking-in-expand-forward-bottom {
+    animation: tracking-in-expand-forward-bottom 2s linear both;
+}
+
+@keyframes tracking-in-expand-forward-bottom {
+    0% {
+        letter-spacing: -.2em;
+        transform: translateZ(-700px) translateY(100px);
+        opacity: 0;
+    }
+    40% {
+        opacity: .6;
+    }
+    100% {
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.wobble-vertical-right {
+    animation: wobble-vertical-right 3s linear both;
+}
+
+@keyframes wobble-vertical-right {
+    0%, 100% {
+        transform: translateY(0) rotate(0);
+        transform-origin: 50% 50%;
+    }
+    15% {
+        transform: translateY(-30px) rotate(6deg);
+    }
+    30% {
+        transform: translateY(15px) rotate(-6deg);
+    }
+    45% {
+        transform: translateY(-15px) rotate(3.6deg);
+    }
+    60% {
+        transform: translateY(9px) rotate(-2.4deg);
+    }
+    75% {
+        transform: translateY(-6px) rotate(1.2deg);
+    }
+}
+
+
+
+
+.blur-in{animation:blur-in 1.5s linear both} @keyframes blur-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
