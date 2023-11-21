@@ -5,13 +5,13 @@
 
 .mapadiv path{
 
-    fill: #0f5eb373;
+    fill: #785f0c73;
     stroke: #ffffff;
     stroke-width: 2px;
 }
 
 .mapadiv :hover {
-    fill: rgba(24, 0, 240, 0.824)
+    fill: rgba(49, 45, 2, 0.824)
 
 }
 .IMDLG{

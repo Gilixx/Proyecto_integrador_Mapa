@@ -89,7 +89,27 @@ body{
 
 .card {
     text-align: center;
-    background-color: rgba(41, 76, 157, 0.729);
+    background-color: rgba(53, 157, 41, 0.729);
+    border-radius: 18px;
+    padding: 40px;
+    margin: 10px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.card1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.729);
+    border-radius: 18px;
+    padding: 40px;
+    margin: 10px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.card2 {
+    text-align: center;
+    background-color: rgba(200, 3, 3, 0.729);
     border-radius: 18px;
     padding: 40px;
     margin: 10px;
